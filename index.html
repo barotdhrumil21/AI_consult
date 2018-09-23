@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Scrolling Nav - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+	  <link href="css/stylesheet.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top" class="body">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">company_name</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <!--<li class="nav-item dropdown">
+              <a class="nav-link" href="#services">Services</a>
+            </li>-->
+			  <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="dropdownResources" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+<div class="dropdown-menu" aria-labelledby="dropdownResources">
+	<a class="dropdown-item" href="#">
+<i class="fal fa-th-list fa-fw"></i>
+placements and recruiting</a>
+<a class="dropdown-item" href="#">
+<i class="fal fa-th-list fa-fw"></i>
+Chat bot</a>
+<a class="dropdown-item" href="#">
+<i class="fal fa-th-list fa-fw"></i>
+Computer vision</a>
+<a class="dropdown-item" href="#">
+<i class="fal fa-th-list fa-fw"></i>
+text analysis</a>
+
+</div>
+</li>
+            <li class="nav-item">
+				<a class="nav-link" href="#contact">Contact Us</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-primary text-white" id="header">
+      <div class="container text-center">
+        <h1>AI advisory</h1>
+        <p class="lead"><h2>We help you leverage artificial intelligence in your business</h2></p>
+		  <p class="lead">Got a project idea ? <br>get on a quick call with us and find out how we can heelp you</br> </p>
+</div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <h2>About Us</h2>
+            <p class="lead"></p>
+			  
+			  <div class="row">
+				  <div class="col-lg-12">
+				  </div>
+				  </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Services we offer</h2>
+			  <div class="container">
+			  <div id="placement">
+				  <ul>
+					  <li><p><h4>Placements and recrutement</h4></p></li>
+				  	<p><h5>We can get you best candidates that are experts in the field of AI</h5></p>
+			  	</ul>  
+			  </div>
+		  <div id="bots">
+				  <ul>
+					  <li><p><h4>Building chatbots for SMEs</h4></p></li>
+				  	<p><h5>In the age where most people spend their time on socialites the best way to interact with them is on through social media.</h5></p>
+		<p><h5>We will help you use chatbots to connect with your audience, delight your customers, and drive new sales for your business.</h5></p>
+			  	</ul>  
+			  </div>
+			  </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="text-center">
+      <div class="section-title center">
+      <h2>Contact us</h2>
+      <hr>
+      <p>Get on a call with us at 0000000000 for any questions, queries, concerns that you might have.</p>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <form action="https://formspree.io/mail.."
+      method="POST"><!--name="sentMessage" id="contactForm" novalidate-->
+        <div id="form-center" class="container">
+		  <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input name="Name" type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input name="email" type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+			</div>
+        <div id="success"></div>
+        <button type="submit" id="msg_btn" class="btn btn-custom btn-lg">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white"></p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
